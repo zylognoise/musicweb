@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Artista Indie</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="vinyl">
+    <div class="label">ARTISTA</div>
+
+    <button class="slice bio" onclick="showSection('bio')">BIO</button>
+    <button class="slice music" onclick="showSection('music')">MÚSICA</button>
+    <button class="slice videos" onclick="showSection('videos')">VIDEOS</button>
+    <button class="slice contact" onclick="showSection('contact')">CONTACTO</button>
+  </div>
+
+  <section id="content">
+    <div id="bio" class="panel">
+      <h2>Bio</h2>
+      <p>Artista independiente mezclando sonido, arte y emoción.</p>
+    </div>
+
+    <div id="music" class="panel">
+      <h2>Música</h2>
+      <a href="#" target="_blank">Spotify</a><br>
+      <a href="#" target="_blank">Bandcamp</a>
+    </div>
+
+    <div id="videos" class="panel">
+      <h2>Videos</h2>
+      <a href="#" target="_blank">YouTube</a>
+    </div>
+
+    <div id="contact" class="panel">
+      <h2>Contacto</h2>
+      <p>contacto@email.com</p>
+    </div>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
